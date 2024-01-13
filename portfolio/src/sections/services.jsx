@@ -2,7 +2,7 @@
 
 const Services = () => {
     return (
-        <div className="container services_container" id="services">
+        <section className="container services_container" id="services">
             <h2 className="heading">SERVICES</h2>
             <span className="subheading">SERVICES I OFFER</span>
 
@@ -34,7 +34,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 
