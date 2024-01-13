@@ -77,13 +77,13 @@ const Skills = () => {
 
                             <li>
                                 <img src="./asset/undraw_dev_focus_re_6iwt.svg" alt="" />
-                                <span className="skill_title">BASIC-COMPUTER</span>
+                                <span className="skill_title">BASIC COMPUTER</span>
                                 <span className="skill_level">Advance</span>
                             </li>
 
                             <li>
                                 <img src="./asset/undraw_good_team_re_hrvm.svg" alt="" />
-                                <span className="skill_title">TEAM-PLAYER</span>
+                                <span className="skill_title">TEAM PLAYER</span>
                                 <span className="skill_level">Good</span>
                             </li>
 
