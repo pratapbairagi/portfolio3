@@ -402,6 +402,9 @@ section::after {
 .hero_container, .about_container, .skills_container, .qualification_container {
   padding: 8dvh 1.75rem 8dvh 1.75rem;
 }
+.about_container .content, .skills_container .content, .qualification_container .content {
+  margin-top: 1rem;
+}
 
 .about_grid, .qualification_grid {
   margin-top: 1.8rem;
@@ -425,7 +428,8 @@ section::after {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
-  margin-top: 0.7rem;
+  /* margin-top: 0.7rem; */
+  margin-top: 1.5rem !important;
   font-family: var(--body-font-family);
   align-items: flex-start;
 }
@@ -449,9 +453,9 @@ section::after {
 }
 
 /* skills */
-.skills_container .skills_grid .data {
+/* .skills_container .skills_grid .data {
   margin-top: 1rem;
-}
+} */
 
 .skills_container .skills_grid>div:nth-child(2) .data .list {
   grid-template-columns: repeat(1, 100%);
@@ -467,7 +471,6 @@ section::after {
 .skills_container .skills_grid .title {
   margin: auto;
   text-align: center;
-  margin-top: 2rem;
 }
 
 .skills_container .data .list {
@@ -529,7 +532,7 @@ section::after {
 }
 .qualification_grid .data{
   margin: 0 auto ;
-  margin-top: 2.25rem;
+  /* margin-top: 2.25rem; */
   max-width: 320px;
 }
 .qualification_grid .data .list{
@@ -538,7 +541,6 @@ section::after {
   width: 100%; 
   display: flex ; 
   flex-direction: column ; 
-  /* border: 1px solid red; */
 }
 .qualification_grid .data .list li{
   display: flex;
@@ -546,7 +548,6 @@ section::after {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0 ;
-  /* border: 1px solid red; */
 }
 
 .qualification_grid .data .list li span{
@@ -557,11 +558,9 @@ section::after {
   font-size: var(--mobile-small-font-size);
   font-weight: var(--font-medium);
   font-family: var(--title-font-family);
-  /* border: 1px solid red; */
 }
 .qualification_grid .data .list li span:nth-child(3){
   margin-top: 0 !important;
-
 }
 
 .qualification_grid .data .data_heading{
@@ -620,6 +619,10 @@ section::after {
   .hero_container, .about_container, .skills_container, .qualification_container {
     padding: 8dvh 1.75rem 8dvh 1.75rem;
   }
+  .about_container .content, .skills_container .content, .qualification_container .content {
+    margin-top: 1rem;
+
+  }
 
   .hero_info {
     width: 100%;
@@ -651,6 +654,10 @@ section::after {
 
   .about_container, .skills_container, .qualification_container {
     padding: 8dvh 1.75rem 8dvh 1.75rem;
+  }
+
+   .about_container .content, .skills_container .content, .qualification_container .content{
+    margin-top: 2rem;
   }
 
   .hero_info {
@@ -697,7 +704,11 @@ section::after {
   }
 
   .hero_container, .about_container, .skills_container, .qualification_container {
-    padding: 16dvh 1.75rem 16dvh 1.75rem;
+    padding: 14dvh 1.75rem 14dvh 1.75rem;
+  }
+
+  .about_container .content, .skills_container .content, .qualification_container .content{
+    margin-top: 3rem;
   }
 
   .hero_content:nth-child(1) {
@@ -739,8 +750,11 @@ section::after {
     padding: 0;
     box-shadow: 0;
     background: transparent;
-    top: 1.15rem;
+    transform: translateY(0);
+    /* top: 1.15rem; */
     box-shadow: none;
+    height: 9dvh;
+    align-items: center;
   }
 
   .nav li a {
@@ -809,7 +823,12 @@ section::after {
   }
 
   .hero_container, .about_container, .skills_container, .qualification_container {
-    padding: 16dvh 3rem 16dvh 3rem;
+    padding: 15dvh 3rem 15dvh 3rem;
+  }
+
+  .about_container .content, .skills_container .content, .qualification_container .content {
+    margin-top: 4rem;
+
   }
 
   .hero_greeting {
@@ -896,9 +915,9 @@ section::after {
     padding: 1rem 2rem;
     border-radius: 0;
   }
-  .nav_container .nav{
+  /* .nav_container .nav{
     top: 1.25rem;
-  }
+  } */
 
   .nav_container span:nth-child(3) {
     display: none;
@@ -906,14 +925,17 @@ section::after {
 
   .nav {
     position: fixed;
-    /* top:0.9rem ; */
-    transform: translateY(0.1rem);
+    top: 0 ;
+    transform: translateY(0);
     z-index: var(--z-index-level-heighest);
     grid-template-columns: repeat(6, max-content);
     padding: 0;
     box-shadow: 0;
     background: transparent;
     box-shadow: none;
+
+    height: 11dvh;
+    align-items: center;
   }
 
   .nav li a {
@@ -931,17 +953,17 @@ section::after {
 
   /* about */
 
-  .about_grid>div:nth-child(2),
-  .about_grid>div:nth-child(4),
-  .about_grid>div:nth-child(6) {
+  .about_grid > div:nth-child(2),
+  .about_grid > div:nth-child(4),
+  .about_grid > div:nth-child(6) {
     align-items: flex-end;
     align-items: flex-end;
     text-align: right;
   }
 
-  .about_grid>div:nth-child(2) .data h3,
-  .about_grid>div:nth-child(4) .data h3,
-  .about_grid>div:nth-child(6) .data h3 {
+  .about_grid > div:nth-child(2) .data h3,
+  .about_grid > div:nth-child(4) .data h3,
+  .about_grid > div:nth-child(6) .data h3 {
     align-self: flex-end;
   }
 
