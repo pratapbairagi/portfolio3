@@ -784,18 +784,18 @@ section::after {
   text-align: center;
 }
 
-.testimonial_container .mySwiper .swiper-slide>div {
+.testimonial_container .mySwiper .swiper-slide > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--text-color-light);
-  font-size: var(--mobile-normal-font-size);
+  font-size: calc( var(--mobile-normal-font-size) - 1px ) !important;
   font-weight: var(--font-medium);
 }
 
 .testimonial_container .mySwiper .swiper-slide>div span:nth-child(3) {
-  font-size: calc(var(--mobile-normal-font-size) + 2px);
+  font-size: calc(var(--mobile-normal-font-size) + 1px);
   font-weight: var(--font-bold);
   color: var(--text-color);
   margin-top: 0.9rem;
@@ -803,9 +803,9 @@ section::after {
 
 .testimonial_container .mySwiper .swiper-slide>div span:nth-child(4) {
   font-weight: var(--font-medium);
-  font-size: calc(var(--mobile-normal-font-size) + 0);
+  font-size: calc(var(--mobile-normal-font-size) + 0px);
   color: var(--text-color-light);
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 .testimonial_container .mySwiper .swiper-button-next,
@@ -1050,8 +1050,9 @@ section::after {
 }
 
 .testimonial_container .mySwiper .swiper-slide>div {
-  font-size: calc( var(--mobile-normal-font-size) + 1px );
+  font-size: calc( var(--mobile-normal-font-size) + 0px ) !important;
 }
+
 .testimonial_container .mySwiper .swiper-slide > div span:nth-child(4){
   font-size: calc( var(--mobile-normal-font-size) - 1px );
 }
@@ -1240,8 +1241,8 @@ section::after {
   max-width: 800px;
 }
 
-.testimonial_container .mySwiper .swiper-slide>div {
-  font-size: calc( var(--mobile-normal-font-size) + 2px );
+.testimonial_container .mySwiper .swiper-slide > div {
+  font-size: calc( var(--mobile-normal-font-size) + 3px ) !important;
 }
 
 
