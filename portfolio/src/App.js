@@ -7,6 +7,7 @@ import Projects from './sections/projects';
 import Qualification from './sections/qualification';
 import Services from './sections/services';
 import Skills from './sections/skills';
+import Testimonial from './sections/testimonial';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Qualification/>
       <Services/>
       <Projects/>
+      <Testimonial/>
     </div>
   );
 }

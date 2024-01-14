@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 const Header = () => {
     return(
-        <div className="nav_container">
+        <div className="nav_container" style={{display:"none"}}>
             <span className="logo">Pratap</span>
 
             <ul className="nav" id="nav">
