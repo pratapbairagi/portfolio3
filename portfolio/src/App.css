@@ -770,7 +770,7 @@ section::after {
   margin-top: 3rem;
   width: 90dvw !important;
   height: max-content !important;
-  padding: 0 3rem;
+  padding: 0 0.5rem;
 }
 
 .testimonial_container .swiper-wrapper {
