@@ -764,9 +764,11 @@ section::after {
 }
 
 /* testimonial */
+
 .testimonial_container .mySwiper {
+  margin: 0 auto !important;
   margin-top: 3rem;
-  width: 90dvw;
+  width: 90dvw !important;
   height: max-content !important;
   padding: 0 3rem;
 }
@@ -1036,10 +1038,15 @@ section::after {
   }
 
   /* testimonial */
+  .testimonial_container .content{
+    display: flex;
+    justify-content: center;
+  }
 .testimonial_container .mySwiper {
-  margin: 0 auto;
-  margin-top: 3rem;
-  width: 500px;
+  margin: 0 auto ;
+  margin-top: 3rem !important;
+  width: 80dvh !important ;
+  max-width: 90dvh !important;
 }
 
 .testimonial_container .mySwiper .swiper-slide>div {
