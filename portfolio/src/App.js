@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './copmonents/footer/footer';
 import Header from './copmonents/header/header';
 import About from './sections/about';
 import Contact from './sections/contact';
@@ -22,6 +23,7 @@ function App() {
       <Projects/>
       <Testimonial/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
