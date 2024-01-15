@@ -632,6 +632,7 @@ font-weight: var(--font-regular);
   border: 1px solid var(--text-color-light);
   max-width: 400px;
   border-radius: 2rem;
+  padding: 0.2rem 0;
 }
 .contact_grid .data:nth-child(2) .list li:nth-last-child(1) {
   border: none;
@@ -672,6 +673,7 @@ font-weight: var(--font-regular);
   outline: none;
   font-family: var(--title-font-family);
   border: none;
+  border-radius: 1rem;
 }
 .contact_grid .data .list li textarea  {
   height: 7rem;
