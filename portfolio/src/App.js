@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './copmonents/header/header';
 import About from './sections/about';
+import Contact from './sections/contact';
 import Hero from './sections/hero';
 import Projects from './sections/projects';
 import Qualification from './sections/qualification';
@@ -20,6 +21,7 @@ function App() {
       <Services/>
       <Projects/>
       <Testimonial/>
+      <Contact/>
     </div>
   );
 }
