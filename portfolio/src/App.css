@@ -222,12 +222,12 @@ section::after {
   display: flex;
   width: max-content;
   max-width: 100%;
-  gap: 0.3rem;
+  column-gap: 0.3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0;
+  /* gap: 0; */
   column-gap: 0.5rem;
   font-size: var(--h1-font-size);
   font-weight: var(--font-extra-bold);
@@ -1005,7 +1005,7 @@ font-weight: var(--font-regular);
 
 }
 
-.projects_flex>div a:hover {
+.projects_flex > div a:hover {
   background-color: var(--container-color);
   color: var(--text-color-light);
   border: 1px solid transparent;
@@ -1048,6 +1048,16 @@ a:hover{
     grid-template-columns: repeat(1, 100%);
   }
 
+    /* nav */
+    .nav_container {
+      height: 9dvh;
+      padding: 1rem 2rem;
+    }
+     .nav {
+      transform: translateY(110%);
+      align-items: center;
+    }
+
   .hero_container,
   .about_container,
   .skills_container,
@@ -1056,7 +1066,7 @@ a:hover{
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 8dvh 1.75rem 8dvh 1.75rem;
+    padding: 9dvh 2rem 9dvh 2rem;
   }
 
   .about_container .content,
@@ -1080,7 +1090,7 @@ a:hover{
   }
 
   .active_nav {
-    transform: translateY(-8.7rem);
+    transform: translateY(-8rem);
   }
 
   /* skills */
@@ -1107,6 +1117,16 @@ a:hover{
     grid-template-columns: repeat(1, 100%);
   }
 
+   /* nav */
+   .nav_container {
+    height: 9dvh;
+    padding: 1rem 2rem;
+  }
+   .nav {
+    transform: translateY(110%);
+    align-items: center;
+  }
+
   .about_container,
   .skills_container,
   .qualification_container,
@@ -1114,7 +1134,7 @@ a:hover{
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 8dvh 1.75rem 8dvh 1.75rem;
+    padding: 9dvh 2.25rem 9dvh 2.25rem;
   }
 
   .about_container .content,
@@ -1144,7 +1164,7 @@ a:hover{
   }
 
   .active_nav {
-    transform: translateY(-8.7rem);
+    transform: translateY(-8rem);
   }
 
   /* skills */
@@ -1222,7 +1242,7 @@ a:hover{
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 14dvh 1.75rem 14dvh 1.75rem;
+    padding: 14dvh 2.5rem 14dvh 2.5rem;
   }
 
   .about_container .content,
