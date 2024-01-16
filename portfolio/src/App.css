@@ -1081,6 +1081,10 @@ a:hover{
   }
 
   /* hero or home */
+  .hero_shadow {
+    max-width: 300px;
+  background: radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white);
+  }
 
   .hero_info {
     font-size: calc(var(--mobile-normal-font-size) - 2px);
@@ -1115,6 +1119,7 @@ a:hover{
     font-size: var(--mobile-smaller-font-size);
     margin-top: 0.2rem;
   }
+
 }
 
 @media only screen and (max-width : 767px) {
@@ -1176,6 +1181,7 @@ a:hover{
 
   .hero_shadow {
     max-width: 300px;
+  background: radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white);
   }
 
   .active_nav {
@@ -1332,6 +1338,10 @@ a:hover{
     font-family: var(--body-font-family);
     margin-top: 0.75rem;
     line-height: 1.45rem;
+  }
+  .hero_shadow {
+    max-width: 300px;
+  background: radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white);
   }
 
   /* about */
@@ -1549,6 +1559,7 @@ margin-top: 0.3rem !important;
     display: block;
     max-width: 1000px;
     margin-top: 2rem;
+    background: radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white);
     /* margin-top: -1rem; */
   }
 
