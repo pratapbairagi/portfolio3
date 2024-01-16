@@ -463,6 +463,16 @@ section::after {
   font-size: 5rem;
 }
 
+.hero_circles span:nth-child(7){
+  padding: 0.3rem 0.5rem;
+  top: 2%;
+  left: 0%;
+  transform: rotate(-15deg);
+}
+.hero_circles span:nth-child(7) i{
+  font-size: 1.5rem;
+}
+
 /* about */
 .heading {
   font-size: var(--h3-font-size);

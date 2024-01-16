@@ -12,6 +12,7 @@ const Hero = () => {
                 <span> <i class="ri-chat-3-line"></i> </span>
                 <span> <i class="ri-suitcase-line"></i> </span>
                 <span> <i class="ri-article-line"></i> </span>
+                <span> <i class="ri-quill-pen-line"></i> </span>
             </div>
             <div className="grid">
 
