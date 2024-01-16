@@ -1101,8 +1101,10 @@ font-weight: var(--font-regular);
 .contact_grid .data:nth-child(2) .list li:nth-last-child(1) button:hover {
   background-color: white;
 }
-a:hover{
+a:hover, .active_link{
   color: var(--text-color-title) !important;
+  font-weight: var(--font-extra-bold);
+  
 }
 
 
