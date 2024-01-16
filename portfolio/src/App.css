@@ -1066,13 +1066,18 @@ a:hover{
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 9dvh 2rem 9dvh 2rem;
+    padding: 3rem 1.75rem 3rem 1.75rem;
   }
 
   .about_container .content,
   .skills_container .content,
   .qualification_container .content {
     margin-top: 1rem;
+  }
+
+  .about_container .content,
+  .contact_container .content{
+    padding: 0 0.5rem;
   }
 
   /* hero or home */
@@ -1134,13 +1139,18 @@ a:hover{
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 9dvh 2.25rem 9dvh 2.25rem;
+    padding: 3rem 1.75rem 3rem 1.75rem;
   }
 
   .about_container .content,
   .skills_container .content,
   .qualification_container .content {
     margin-top: 2rem;
+  }
+
+  .about_container .content,
+  .contact_container .content{
+    padding: 0 1.25rem;
   }
 
   /* hero or home */
@@ -1242,7 +1252,7 @@ a:hover{
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 14dvh 2.5rem 14dvh 2.5rem;
+    padding: 7rem 2rem 7rem 2rem;
   }
 
   .about_container .content,
@@ -1448,7 +1458,7 @@ margin-top: 0.3rem !important;
   .projects_container,
   .testimonial_container,
   .contact_container {
-    padding: 15dvh 3rem 15dvh 3rem;
+    padding: 8rem 3rem 8rem 3rem;
   }
 
   .about_container .content,
