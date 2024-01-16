@@ -385,11 +385,81 @@ section::after {
   margin-top: 2.5rem;
   border-radius: 50%;
   background: radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white);
-  background: -moz-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* FF3.6+ */
-  background: -webkit-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* Opera 11.10+ */
-  background: -ms-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* IE10+ */
+}
+.hero_circles{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.hero_circles span{
+  border-radius: 50%;
+  width: max-content;
+  aspect-ratio: 1/1;
+  /* position: relative; */
+  position: absolute;
+  padding: 0.2rem 0.4rem;
+  display: block;
+  border-top: 1px solid rgb(255, 162, 162);
+  border-left: 1px solid rgb(255, 162, 162);
+}
+.hero_circles span i{
+  font-size: 2rem;
+  color: var(--container-color);
+  opacity: 0.5;
+}
+.hero_circles span:nth-child(1){
+  top: 50%;
+  left: 80%;
+  padding: 1rem 1.2rem;
+  transform: rotate(-45deg);
+}
+.hero_circles span:nth-child(1) i{
+  font-size: 5rem;
+}
+.hero_circles span:nth-child(2){
+  top: 15%;
+  left: 20%;
+  padding: 1rem 1.3rem;
+  transform: rotate(-25deg);
 
+}
+.hero_circles span:nth-child(2) i{
+  font-size: 4rem;
+}
+.hero_circles span:nth-child(3){
+  padding: 1.5rem 1.7rem;
+  top: 40%;
+  left: 2%;
+}
+.hero_circles span:nth-child(3) i{
+  font-size: 6rem;
+}
+.hero_circles span:nth-child(4){
+  padding: 0.7rem 0.9rem;
+  top: 0%;
+  left: 70%;
+}
+.hero_circles span:nth-child(4) i{
+  font-size: 3rem;
+}
+.hero_circles span:nth-child(5){
+  padding: 0.7rem 0.9rem;
+  top: 40%;
+  left: 50%;
+}
+.hero_circles span:nth-child(5) i{
+  font-size: 2rem;
+}
+.hero_circles span:nth-child(6){
+  padding: 0.7rem 0.9rem;
+  top: 25%;
+  right: 0%;
+  transform: rotate(60deg);
+}
+.hero_circles span:nth-child(6) i{
+  font-size: 5rem;
 }
 
 /* about */
@@ -417,6 +487,7 @@ section::after {
 .testimonial_container,
 .contact_container {
   padding: 8dvh 1.75rem 8dvh 1.75rem;
+  position: relative;
 }
 
 .about_container .content,

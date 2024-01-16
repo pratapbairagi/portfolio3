@@ -5,6 +5,14 @@ import Button from "../copmonents/button/button";
 const Hero = () => {
     return (
         <section className="container hero_container" id="home">
+            <div className="hero_circles">
+                <span> <i class="ri-customer-service-2-line"></i> </span>
+                <span> <i class="ri-computer-line"></i> </span>
+                <span> <i class="ri-keyboard-line"></i> </span>
+                <span> <i class="ri-chat-3-line"></i> </span>
+                <span> <i class="ri-suitcase-line"></i> </span>
+                <span> <i class="ri-article-line"></i> </span>
+            </div>
             <div className="grid">
 
                 <div className="content hero_content hero_content_design">
