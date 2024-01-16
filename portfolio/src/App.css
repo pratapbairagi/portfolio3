@@ -385,6 +385,11 @@ section::after {
   margin-top: 2.5rem;
   border-radius: 50%;
   background: radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white);
+  background: -moz-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* FF3.6+ */
+  background: -webkit-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* Opera 11.10+ */
+  background: -ms-radial-gradient(rgb(151, 150, 150), rgb(212, 211, 211), white); /* IE10+ */
+
 }
 
 /* about */
