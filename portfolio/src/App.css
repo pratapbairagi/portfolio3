@@ -1132,6 +1132,8 @@ a:hover{
     align-items: center;
   }
 
+  
+  .hero_container,
   .about_container,
   .skills_container,
   .qualification_container,
@@ -1155,6 +1157,9 @@ a:hover{
 
   /* hero or home */
 
+  /* .hero_container{
+
+  } */
   .hero_info {
     font-size: calc(var(--mobile-normal-font-size) - 1px);
     font-weight: var(--font-regular);
