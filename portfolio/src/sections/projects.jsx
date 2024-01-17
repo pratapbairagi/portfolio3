@@ -41,7 +41,7 @@ const Projects = () => {
                 <img src="./asset/dashboard.jpg" alt="dashboard" />
                 <div className="title project_title">Static Dashboard UI</div>
                 <p className="info project_info">This is just Dashboard UI made with HTML and CSS.</p>
-                <a href="https://dashboard-lime-line.vercel.app" target="_blank">
+                <a href="https://dashboard-lime-nine.vercel.app" target="_blank">
                     See Demo <i className="ri-arrow-right-line"></i>
                 </a>
                 </div>
