@@ -42,8 +42,8 @@ const Hero = () => {
                             </div>
                             <div className="hero_info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate velit tempora vero ipsum, nulla quasi ad ipsam necessitatibus. Recusandae aliquam minus aspernatur id. Quaerat tempore magnam quas sequi nam ex!</div>
                             <div className="hero_buttons">
-                                <Button styleclassName={`hero_button`} styleCss={{}} buttonText={"Portfolio"}/>
-                                <Button styleclassName={`hero_button`} styleCss={{}} buttonText={"Resume"}/>
+                                <Button styleClass="hero_button" buttonText={"Portfolio"}/>
+                                <Button styleClass="hero_button" buttonText={"Resume"}/>
                             </div>
                         </div>
                 </div>
