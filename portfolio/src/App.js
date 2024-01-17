@@ -17,7 +17,7 @@ import ScrollReveal from "scrollreveal";
 function App() {
   let sr = ScrollReveal({
     origin : "top",
-    distance : "80px",
+    distance : "120px",
     duration : 2500,
     delay : 400,
     // reset : true /* repeat animation */ 
