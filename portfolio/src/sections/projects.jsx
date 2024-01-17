@@ -27,44 +27,44 @@ const Projects = () => {
             >
                 <SwiperSlide>
                 <div>
-                <img src="./asset/project1.jpg" alt="" />
-                <div className="title project_title">E-Commerce</div>
-                <p className="info project_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dolorum adipisci ullam nisi suscipit!</p>
-                <a href="https://shopnow-green.vercel.app" target="_blank">
-                    See Demo <i class="ri-arrow-right-line"></i>
+                <img src="./asset/tic-tac-toe.jpg" alt="tic-tac-toe" />
+                <div className="title project_title">Basic Tic Tac Toe Game</div>
+                <p className="info project_info">Used main three web technologies HTML CSS and JavaScript.</p>
+                <a href="https://tic-tac-toe-protap.vercel.app" target="_blank">
+                    See Demo <i className="ri-arrow-right-line"></i>
                 </a>
                 </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                 <div>
-                <img src="./asset/project1.jpg" alt="" />
-                <div className="title project_title">E-Commerce</div>
-                <p className="info project_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dolorum adipisci ullam nisi suscipit!</p>
-                <a href="https://shopnow-green.vercel.app" target="_blank">
-                    See Demo <i class="ri-arrow-right-line"></i>
+                <img src="./asset/dashboard.jpg" alt="dashboard" />
+                <div className="title project_title">Static Dashboard UI</div>
+                <p className="info project_info">This is just Dashboard UI made with HTML and CSS.</p>
+                <a href="https://dashboard-lime-line.vercel.app" target="_blank">
+                    See Demo <i className="ri-arrow-right-line"></i>
                 </a>
                 </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                 <div>
-                <img src="./asset/project1.jpg" alt="" />
+                <img src="./asset/ecommerce.jpg" alt="e-commerce" />
                 <div className="title project_title">E-Commerce</div>
-                <p className="info project_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dolorum adipisci ullam nisi suscipit!</p>
+                <p className="info project_info">Here used ReactJs, NodeJs, Express, Bootstrap, mongoDD and other npm library for authentication and etc.</p>
                 <a href="https://shopnow-green.vercel.app" target="_blank">
-                    See Demo <i class="ri-arrow-right-line"></i>
+                    See Demo <i className="ri-arrow-right-line"></i>
                 </a>
                 </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                 <div>
-                <img src="./asset/project1.jpg" alt="" />
-                <div className="title project_title">E-Commerce</div>
-                <p className="info project_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dolorum adipisci ullam nisi suscipit!</p>
-                <a href="https://shopnow-green.vercel.app" target="_blank">
-                    See Demo <i class="ri-arrow-right-line"></i>
+                <img src="./asset/cv-maker.jpg" alt="cv-maker" />
+                <div className="title project_title">CV Maker and Portfolio website</div>
+                <p className="info project_info">ReactJs and Bootstrap based frontend, NodeJs & ExpressJs used for backend and mongoDB for database.  </p>
+                <a href="https://cv-cum-portfolio.vercel.app" target="_blank">
+                    See Demo <i className="ri-arrow-right-line"></i>
                 </a>
                 </div>
                 </SwiperSlide>

@@ -6,13 +6,13 @@ const Hero = () => {
     return (
         <section className="container hero_container" id="home">
             <div className="hero_circles">
-                <span> <i class="ri-customer-service-2-line"></i> </span>
-                <span> <i class="ri-computer-line"></i> </span>
-                <span> <i class="ri-keyboard-line"></i> </span>
-                <span> <i class="ri-chat-3-line"></i> </span>
-                <span> <i class="ri-suitcase-line"></i> </span>
-                <span> <i class="ri-article-line"></i> </span>
-                <span> <i class="ri-quill-pen-line"></i> </span>
+                <span> <i className="ri-customer-service-2-line"></i> </span>
+                <span> <i className="ri-computer-line"></i> </span>
+                <span> <i className="ri-keyboard-line"></i> </span>
+                <span> <i className="ri-chat-3-line"></i> </span>
+                <span> <i className="ri-suitcase-line"></i> </span>
+                <span> <i className="ri-article-line"></i> </span>
+                <span> <i className="ri-quill-pen-line"></i> </span>
             </div>
             <div className="grid">
 
@@ -42,8 +42,8 @@ const Hero = () => {
                             </div>
                             <div className="hero_info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate velit tempora vero ipsum, nulla quasi ad ipsam necessitatibus. Recusandae aliquam minus aspernatur id. Quaerat tempore magnam quas sequi nam ex!</div>
                             <div className="hero_buttons">
-                                <Button styleClass={`hero_button`} styleCss={{}} buttonText={"Portfolio"}/>
-                                <Button styleClass={`hero_button`} styleCss={{}} buttonText={"Resume"}/>
+                                <Button styleclassName={`hero_button`} styleCss={{}} buttonText={"Portfolio"}/>
+                                <Button styleclassName={`hero_button`} styleCss={{}} buttonText={"Resume"}/>
                             </div>
                         </div>
                 </div>

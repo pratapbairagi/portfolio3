@@ -8,11 +8,11 @@ const Services = () => {
 
             <div className="content grid services_grid">
                 {/* <div className="title">
-                <i class="ri-suitcase-line"></i>
+                <i className="ri-suitcase-line"></i>
                 </div> */}
                 <div className="data">
                     <div className="service_card">
-                        <i class="ri-palette-line"></i>
+                        <i className="ri-palette-line"></i>
                         <div className="card_title title">UI Design</div>
                         <p className="card_info info">Service that provides the best quality and at the request of the client, with professional work and customer support.</p>
                     </div>
@@ -20,7 +20,7 @@ const Services = () => {
 
                 <div className="data">
                     <div className="service_card">
-                        <i class="ri-collage-line"></i>
+                        <i className="ri-collage-line"></i>
                         <div className="card_title title">Backend with Database</div>
                         <p className="card_info info">Service that provides the best quality and at the request of the client, with professional work and customer support.</p>
                     </div>
@@ -28,7 +28,7 @@ const Services = () => {
 
                 <div className="data">
                     <div className="service_card">
-                        <i class="ri-database-2-line"></i>
+                        <i className="ri-database-2-line"></i>
                         <div className="card_title title">Dynamic Frontend</div>
                         <p className="card_info info">Service that provides the best quality and at the request of the client, with professional work and customer support.</p>
                     </div>

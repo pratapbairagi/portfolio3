@@ -9,7 +9,7 @@ const Qualification = () => {
             <div className="content grid qualification_grid">
                 <div>
                     <div className="title">
-                        <i class="ri-graduation-cap-line"></i> EDUCATIONAL
+                        <i className="ri-graduation-cap-line"></i> EDUCATIONAL
                     </div>
                     <div className="data">
 
@@ -32,7 +32,7 @@ const Qualification = () => {
 
                 <div>
                     <div className="title">
-                        <i class="ri-pencil-ruler-2-line"></i> SKILL COURSE 
+                        <i className="ri-pencil-ruler-2-line"></i> SKILL COURSE 
                     </div>
                     <div className="data">
 

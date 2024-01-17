@@ -30,13 +30,13 @@ const Footer = () => {
 
                 <ul className="list">
                     <li>
-                        <a href=""><i class="ri-github-line"></i></a>
+                        <a href=""><i className="ri-github-line"></i></a>
                     </li>
                     <li>
-                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i className="ri-instagram-line"></i></a>
                     </li>
                     <li>
-                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i className="ri-instagram-line"></i></a>
                     </li>
                 </ul>
 

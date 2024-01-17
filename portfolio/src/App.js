@@ -12,12 +12,20 @@ import Services from './sections/services';
 import Skills from './sections/skills';
 import Testimonial from './sections/testimonial';
 
+import ScrollReveal from "scrollreveal";
+
 function App() {
-  
+  let sr = ScrollReveal({
+    origin : "top",
+    distance : "80px",
+    duration : 2500,
+    delay : 400,
+    // reset : true /* repeat animation */ 
+  })
     useEffect(()=>{
       let sections = document.querySelectorAll("section");
   window.onscroll = () => {
-    
+
     let scrollY = window.pageYOffset;
   
     sections.forEach((element )=> {
@@ -38,11 +46,18 @@ function App() {
       }
 
     })
-  }
+  };
+
+  sr.reveal(".hero_container .grid .content:nth-child(2), .skills_container .grid > div:nth-child(1), .qualification_container .grid > div:nth-child(1), .contact_container .grid > div:nth-child(1)", {origin : "left"})
+  sr.reveal(".hero_container .grid .content:nth-child(1), .skills_container .grid > div:nth-child(2), .qualification_container .grid > div:nth-child(2), .contact_container .grid > div:nth-child(2)", {origin : "right"})
+  sr.reveal(".about_container .grid, .services_container .grid, .projects_container .mySwiper, .testimonial_container .grid")
+  sr.reveal(".footer_container .grid", {origin : "bottom", delay:"200"})
+
+
 },[])
 
   return (
-    <div className="App">
+    <div className="App" style={{overflowX:"hidden"}}>
       <Header/>
       <Hero/>
       <About/>
